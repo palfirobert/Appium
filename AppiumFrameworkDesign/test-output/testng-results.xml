@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T16:51:59Z" name="Suite" finished-at="2022-08-22T16:53:53Z" duration-ms="114630">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T16:51:59Z" name="Test separate" finished-at="2022-08-22T16:52:52Z" duration-ms="53181">
+      <class name="org.example.EcomerceAppTestingWithSeparateTests">
+        <test-method is-config="true" signature="initializeAppiumServer()[pri:0, instance:org.example.EcomerceAppTestingWithSeparateTests@11981797]" started-at="2022-08-22T16:51:59Z" name="initializeAppiumServer" finished-at="2022-08-22T16:52:07Z" duration-ms="8038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAppiumServer -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:org.example.EcomerceAppTestingWithSeparateTests@11981797]" started-at="2022-08-22T16:52:07Z" name="openApp" finished-at="2022-08-22T16:52:17Z" duration-ms="10375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="formPageTest(java.lang.String, org.example.GENDER, java.lang.String)[pri:1, instance:org.example.EcomerceAppTestingWithSeparateTests@11981797]" started-at="2022-08-22T16:52:17Z" name="formPageTest" data-provider="dataForFormPage" finished-at="2022-08-22T16:52:30Z" duration-ms="12525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Palfi Robert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FEMALE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formPageTest -->
+        <test-method signature="formPageTest(java.lang.String, org.example.GENDER, java.lang.String)[pri:1, instance:org.example.EcomerceAppTestingWithSeparateTests@11981797]" started-at="2022-08-22T16:52:30Z" name="formPageTest" data-provider="dataForFormPage" finished-at="2022-08-22T16:52:39Z" duration-ms="8857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Marius]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MALE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formPageTest -->
+        <test-method signature="productCatalogueTest()[pri:2, instance:org.example.EcomerceAppTestingWithSeparateTests@11981797]" started-at="2022-08-22T16:52:39Z" name="productCatalogueTest" finished-at="2022-08-22T16:52:51Z" duration-ms="12032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCatalogueTest -->
+        <test-method signature="cartPageTest()[pri:3, instance:org.example.EcomerceAppTestingWithSeparateTests@11981797]" started-at="2022-08-22T16:52:51Z" name="cartPageTest" finished-at="2022-08-22T16:52:52Z" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageTest -->
+        <test-method is-config="true" signature="stopServers()[pri:0, instance:org.example.EcomerceAppTestingWithSeparateTests@11981797]" started-at="2022-08-22T16:52:52Z" name="stopServers" finished-at="2022-08-22T16:52:52Z" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServers -->
+      </class> <!-- org.example.EcomerceAppTestingWithSeparateTests -->
+    </test> <!-- Test separate -->
+    <test started-at="2022-08-22T16:52:52Z" name="Test togheter" finished-at="2022-08-22T16:53:53Z" duration-ms="61057">
+      <class name="org.example.EcomerceAppTesting">
+        <test-method is-config="true" signature="initializeAppiumServer()[pri:0, instance:org.example.EcomerceAppTesting@1021f6c9]" started-at="2022-08-22T16:52:52Z" name="initializeAppiumServer" finished-at="2022-08-22T16:52:59Z" duration-ms="6224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAppiumServer -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:org.example.EcomerceAppTesting@1021f6c9]" started-at="2022-08-22T16:52:59Z" name="openApp" finished-at="2022-08-22T16:53:06Z" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.example.EcomerceAppTesting@1021f6c9]" started-at="2022-08-22T16:53:06Z" name="preSetup" finished-at="2022-08-22T16:53:08Z" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="fillFormAndVerifyToast(java.util.HashMap)[pri:0, instance:org.example.EcomerceAppTesting@1021f6c9]" started-at="2022-08-22T16:53:08Z" name="fillFormAndVerifyToast" data-provider="getData" finished-at="2022-08-22T16:53:32Z" duration-ms="23973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Palfi Robert, country=Argentina, gender=MALE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormAndVerifyToast -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.example.EcomerceAppTesting@1021f6c9]" started-at="2022-08-22T16:53:32Z" name="preSetup" finished-at="2022-08-22T16:53:33Z" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="fillFormAndVerifyToast(java.util.HashMap)[pri:0, instance:org.example.EcomerceAppTesting@1021f6c9]" started-at="2022-08-22T16:53:33Z" name="fillFormAndVerifyToast" data-provider="getData" finished-at="2022-08-22T16:53:53Z" duration-ms="20322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Giorgia, country=Albania, gender=FEMALE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormAndVerifyToast -->
+        <test-method is-config="true" signature="stopServers()[pri:0, instance:org.example.EcomerceAppTesting@1021f6c9]" started-at="2022-08-22T16:53:53Z" name="stopServers" finished-at="2022-08-22T16:53:53Z" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServers -->
+      </class> <!-- org.example.EcomerceAppTesting -->
+    </test> <!-- Test togheter -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test separate(failed)">
+    <classes>
+      <class name="org.example.EcomerceAppTestingWithSeparateTests">
+        <methods>
+          <include name="stopServers"/>
+          <include name="productCatalogueTest"/>
+          <include name="cartPageTest"/>
+          <include name="formPageTest"/>
+          <include name="openApp"/>
+          <include name="initializeAppiumServer"/>
+        </methods>
+      </class> <!-- org.example.EcomerceAppTestingWithSeparateTests -->
+    </classes>
+  </test> <!-- Test separate(failed) -->
+  <test thread-count="5" name="Test togheter(failed)">
+    <classes>
+      <class name="org.example.EcomerceAppTesting">
+        <methods>
+          <include name="stopServers"/>
+          <include name="fillFormAndVerifyToast"/>
+          <include name="openApp"/>
+          <include name="initializeAppiumServer"/>
+        </methods>
+      </class> <!-- org.example.EcomerceAppTesting -->
+    </classes>
+  </test> <!-- Test togheter(failed) -->
+</suite> <!-- Failed suite [Suite] -->
