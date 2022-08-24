@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class EcomerceAppTestingWithSeparateTests extends AppiumConfiguration {
 // ca sa pornesti toate testele se face cu testng.xml in eclipse
-    @Test(priority = 1,dataProvider = "dataForFormPage")
+    @Test(priority = 1,dataProvider = "dataForFormPage",groups = {"Smoke"}) //groups se foloseste pentru anumite teste ce trb rulate in testNg_Smoke.xml
     public void formPageTest(String name,GENDER gender,String country) throws InterruptedException {
         Thread.sleep(4000);
 
@@ -25,7 +25,7 @@ public class EcomerceAppTestingWithSeparateTests extends AppiumConfiguration {
     @Test(priority = 2)
     public void productCatalogueTest()
     {
-        productCatalogue.scrollAndSelectItemToAddToCart("Nike Blazer Mid '77");
+        productCatalogue.scrollAndSelectItemToAddToCart("NikeBlazer Mid '77");
         productCatalogue.scrollAndSelectItemToAddToCart("PG 3");
         productCatalogue.goToCart();
     }
